@@ -9,7 +9,7 @@ import java.awt.event.MouseListener;
 
 public class MainMenuPanel extends BasePanel {
     private SpriteLoader imageLoader;
-    private Sprite backgroundImage = new Sprite(500, 500, 0, "elvenFae.png");
+    private Sprite backgroundImage = new Sprite(0, 0, 0, "Resources/Spacedoot.jpg");
 
     public MainMenuPanel(double scalar, int monitorHZ, WindowLoader parent) {
         super(scalar, monitorHZ, parent);
